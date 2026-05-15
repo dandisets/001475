@@ -20,17 +20,28 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 30954712
-  numberOfFiles: 8
-  numberOfSubjects: 6
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 2224824008
+  numberOfFiles: 527
+  numberOfSubjects: 12
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
     name: Macaca mulatta - Rhesus monkey
     schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
+  - VoltageClampStimulusSeries
+  - VoltageClampSeries
+  - CurrentClampStimulusSeries
+  - CurrentClampSeries
 citation: Dong, Qiping (2025) NHP patch-seq (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001475/draft
 contributor:
