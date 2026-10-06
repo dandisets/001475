@@ -24,8 +24,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: current clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 2224824008
-  numberOfFiles: 527
+  numberOfBytes: 2280093264
+  numberOfFiles: 540
   numberOfSubjects: 12
   schemaKey: AssetsSummary
   species:
@@ -42,7 +42,7 @@ assetsSummary:
   - VoltageClampSeries
   - CurrentClampStimulusSeries
   - CurrentClampSeries
-citation: Dong, Qiping (2025) NHP patch-seq (Version draft) [Data set]. DANDI Archive.
+citation: Dong, Qiping (2026) NHP patch-seq (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001475/draft
 contributor:
 - affiliation: []
@@ -68,5 +68,4 @@ schemaKey: Dandiset
 schemaVersion: 0.6.10
 url: https://dandiarchive.org/dandiset/001475/draft
 version: draft
-wasGeneratedBy:
-- {}
+wasGeneratedBy: []
